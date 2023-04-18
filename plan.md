@@ -8,3 +8,4 @@ My plan
 5/1 -> final deadline
     - add animations?
     - user interactive opprotunities?
+    - icons?
