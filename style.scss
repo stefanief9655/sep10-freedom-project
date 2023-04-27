@@ -2,3 +2,11 @@ $caption: blue;
 $titles: black;
 $backdrop: lightblue;
 
+li {
+    color: $caption;
+}
+
+h1 h2 {
+    color: $title;
+}
+
