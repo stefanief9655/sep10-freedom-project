@@ -1,23 +1,62 @@
 $caption: blue;
+$bullet: 25px;
 $titles: black;
 $backdrop: lightblue;
+$allbullet: center;
+
 
 
 li {
     color: $caption;
+    text-align: $allbullet;
+    padding: 10px;
+
+}
+.li{
+    font-size: $bullet;
 }
 
-h1 h2 {
+h1, h2 {
     color: $titles;
+    font-size: 50px;
+    padding:50px;
 }
 
-h1 h2 h3 {
+h1, h2, h3, p {
     text-align: center;
 }
-.top {
-    padding
-        {top:100px;
-        bottom:100px;}
-    
-    background: linear-gradient(0deg, #0057c2 0%, #050391 100%);
+p {
+    font-size: 30px;
 }
+.top {
+    padding:
+        {top:300px;
+        bottom:300px;}
+    font-size: 130px;
+    color:white;
+    background: #0504aa;
+}
+body {
+    background-color: #cbcbfd
+}
+.small{
+    width: 60%;
+    text-align: center;
+}
+.bs {
+    text-align:center;
+}
+// img {
+//     width:400px;
+//     height:300px;
+    // padding: {
+    //     left: 20px;
+    //     right: 20px;
+    // }
+// }
+// .card {
+//     padding: {
+//         left: 30px;
+//         right: 30px;
+//     }
+// }

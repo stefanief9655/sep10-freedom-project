@@ -1,21 +1,46 @@
 li {
   color: blue;
+  text-align: center;
+  padding: 10px;
 }
 
-h1 h2 {
+.li {
+  font-size: 25px;
+}
+
+h1, h2 {
   color: black;
+  font-size: 50px;
+  padding: 50px;
 }
 
-h1 h2 h3 {
+h1, h2, h3, p {
   text-align: center;
 }
 
-.top {
-  background: linear-gradient(0deg, #0057c2 0%, #050391 100%);
+p {
+  font-size: 30px;
 }
-.top padding {
-  top: 100px;
-  bottom: 100px;
+
+.top {
+  padding-top: 300px;
+  padding-bottom: 300px;
+  font-size: 130px;
+  color: white;
+  background: #0504aa;
+}
+
+body {
+  background-color: #cbcbfd;
+}
+
+.small {
+  width: 60%;
+  text-align: center;
+}
+
+.bs {
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
