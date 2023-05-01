@@ -6,4 +6,16 @@ h1 h2 {
   color: black;
 }
 
+h1 h2 h3 {
+  text-align: center;
+}
+
+.top {
+  background: linear-gradient(0deg, #0057c2 0%, #050391 100%);
+}
+.top padding {
+  top: 100px;
+  bottom: 100px;
+}
+
 /*# sourceMappingURL=style.css.map */

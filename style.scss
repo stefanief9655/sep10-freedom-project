@@ -2,6 +2,7 @@ $caption: blue;
 $titles: black;
 $backdrop: lightblue;
 
+
 li {
     color: $caption;
 }
@@ -10,3 +11,13 @@ h1 h2 {
     color: $titles;
 }
 
+h1 h2 h3 {
+    text-align: center;
+}
+.top {
+    padding
+        {top:100px;
+        bottom:100px;}
+    
+    background: linear-gradient(0deg, #0057c2 0%, #050391 100%);
+}
