@@ -19,7 +19,7 @@ li {
 h1, h2 {
     color: $titles;
     font-size: 50px;
-    padding:50px;
+    padding: 50px;
 }
 
 h1, h2, h3, p {
@@ -30,8 +30,8 @@ p {
 }
 .top {
     padding:
-        {top:300px;
-        bottom:300px;}
+        {top: 300px;
+        bottom: 300px;}
     font-size: 130px;
     color:white;
     background: #0504aa;
@@ -43,20 +43,15 @@ body {
     width: 60%;
     text-align: center;
 }
+.large {
+    width: 120%;
+}
 .bs {
     text-align:center;
 }
-// img {
-//     width:400px;
-//     height:300px;
-    // padding: {
-    //     left: 20px;
-    //     right: 20px;
-    // }
-// }
-// .card {
-//     padding: {
-//         left: 30px;
-//         right: 30px;
-//     }
-// }
+.order-lg-1 {
+    order: 1 !important;
+}
+.order-lg-2 {
+    order: 2 !important;
+}
