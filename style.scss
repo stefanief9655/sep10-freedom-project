@@ -1,4 +1,4 @@
-$caption: blue;
+$caption: darkblue;
 $bullet: 25px;
 $titles: black;
 $backdrop: lightblue;
@@ -10,10 +10,15 @@ li {
     color: $caption;
     text-align: $allbullet;
     padding: 10px;
+    font-weight:bold;
 
 }
 .li{
     font-size: $bullet;
+    padding:{
+        left: 150px;
+        right: 150px;
+    }
 }
 
 h1, h2 {
@@ -25,6 +30,9 @@ h1, h2 {
 h1, h2, h3, p {
     text-align: center;
 }
+h3 {
+    color: $caption;
+}
 p {
     font-size: 30px;
 }
@@ -33,9 +41,10 @@ p {
         {top: 300px;
         bottom: 300px;}
     font-size: 130px;
-    color:white;
-    background: #0504aa;
+    color: black;
+    font-family: 'Arvo', serif;
 }
+
 body {
     background-color: #cbcbfd
 }
@@ -59,5 +68,21 @@ body {
 @media (max-width: 700px) {
     p {
         font-size: 20px;
+    }
+}
+.card {
+    background-color: transparent;
+    text-align: center;
+}
+.img {
+    margin: {
+        left:auto;
+        right:auto;
+    }
+}
+.home {
+    padding:{
+        left: 150px;
+        right:150px;
     }
 }
