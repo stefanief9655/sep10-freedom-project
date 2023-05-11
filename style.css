@@ -2,84 +2,76 @@ li {
   color: darkblue;
   text-align: center;
   padding: 10px;
-  font-weight: bold;
-}
+  font-weight: bold; }
 
 .li {
   font-size: 25px;
   padding-left: 150px;
-  padding-right: 150px;
-}
+  padding-right: 150px; }
 
 h1, h2 {
   color: black;
   font-size: 50px;
-  padding: 50px;
-}
+  padding: 50px; }
 
 h1, h2, h3, p {
-  text-align: center;
-}
+  text-align: center; }
 
 h3 {
-  color: darkblue;
-}
+  color: darkblue; }
 
 p {
-  font-size: 30px;
-}
+  font-size: 30px; }
 
 .top {
   padding-top: 300px;
   padding-bottom: 300px;
   font-size: 130px;
   color: black;
-  font-family: "Arvo", serif;
-}
+  font-family: 'Arvo', serif; }
 
 body {
-  background-color: #cbcbfd;
-}
+  background-color: #cbcbfd; }
 
 .small {
   width: 60%;
-  text-align: center;
-}
+  text-align: center; }
 
 .large {
-  width: 120%;
-}
+  width: 120%; }
 
 .bs {
-  text-align: center;
-}
+  text-align: center; }
 
 .order-lg-1 {
-  order: 1 !important;
-}
+  order: 1 !important; }
 
 .order-lg-2 {
-  order: 2 !important;
-}
+  order: 2 !important; }
 
 @media (max-width: 700px) {
-  p {
+  p, h3, .li {
     font-size: 20px;
-  }
-}
+    padding-left: 15px;
+    padding-right: 15px; } }
+.hell {
+  width: 45%;
+  height: auto; }
+
 .card {
   background-color: transparent;
-  text-align: center;
-}
+  text-align: center; }
 
 .img {
   margin-left: auto;
-  margin-right: auto;
-}
+  margin-right: auto; }
 
 .home {
   padding-left: 150px;
-  padding-right: 150px;
-}
+  padding-right: 150px; }
+
+@media only screen and (max-width: 750px) {
+  h1 {
+    font-size: 55px !important; } }
 
 /*# sourceMappingURL=style.css.map */

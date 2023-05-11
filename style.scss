@@ -66,10 +66,20 @@ body {
 }
 
 @media (max-width: 700px) {
-    p {
+    p, h3, .li {
         font-size: 20px;
+    padding: {
+        left: 15px;
+        right:15px;
+        }
     }
 }
+
+.hell {
+    width: 45%;
+    height: auto;
+}
+
 .card {
     background-color: transparent;
     text-align: center;
@@ -84,5 +94,10 @@ body {
     padding:{
         left: 150px;
         right:150px;
+    }
+}
+@media only screen and (max-width: 750px) {
+    h1 {
+        font-size: 55px !important;
     }
 }
