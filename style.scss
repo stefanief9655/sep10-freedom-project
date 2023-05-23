@@ -43,6 +43,10 @@ p {
     font-size: 130px;
     color: black;
     font-family: 'Arvo', serif;
+    background-image: url(img/top.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 
 body {
@@ -68,10 +72,10 @@ body {
 @media (max-width: 500px) {
     p, h3, .li {
         font-size: 20px;
-    padding: {
-        left: 5px !important ;
-        right: 5px !important ;
-        }
+    // padding: {
+    //     left: 5px !important ;
+    //     right: 5px !important ;
+    //     }
     }
 }
 
@@ -96,8 +100,13 @@ body {
         right:150px;
     }
 }
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 900px) {
     h1 {
-        font-size: 55px !important;
+        font-size: 90px !important;
+    }
+}
+@media only screen and (max-width: 700px) {
+    h1 {
+        font-size: 65px !important;
     }
 }

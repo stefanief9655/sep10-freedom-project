@@ -28,7 +28,10 @@ p {
   padding-bottom: 300px;
   font-size: 130px;
   color: black;
-  font-family: 'Arvo', serif; }
+  font-family: 'Arvo', serif;
+  background-image: url(img/top.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; }
 
 body {
   background-color: #cbcbfd; }
@@ -51,9 +54,7 @@ body {
 
 @media (max-width: 500px) {
   p, h3, .li {
-    font-size: 20px;
-    padding-left: 5px !important;
-    padding-right: 5px !important; } }
+    font-size: 20px; } }
 .hell {
   width: 45%;
   height: auto; }
@@ -66,12 +67,16 @@ body {
   margin-left: auto;
   margin-right: auto; }
 
-.home {
-  padding-left: 150px;
-  padding-right: 150px; }
-
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 900px) {
   h1 {
-    font-size: 55px !important; } }
+    font-size: 90px !important; }
+  p {
+    font-size: 25px;
+    padding: 0px, 0px, 0px, 0px;
+  }}
+
+@media only screen and (max-width: 700px) {
+  h1 {
+    font-size: 65px !important; } }
 
 /*# sourceMappingURL=style.css.map */
